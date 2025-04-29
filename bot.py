@@ -2,10 +2,10 @@ import os
 from pyrogram import Client, filters
 from app.uploader import handle_txt_upload
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-USER_ID = int(os.getenv("USER_ID"))
+API_ID = int(os.getenv("28748671"))
+API_HASH = os.getenv("f53ec7c41ce34e6d585674ed9ce6167c")
+BOT_TOKEN = os.getenv("7820500746:AAHJXoIVZH750objwgQAcVtbr4BFK8Au8GU")
+USER_ID = int(os.getenv("1169394017"))
 
 app = Client("drm_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
